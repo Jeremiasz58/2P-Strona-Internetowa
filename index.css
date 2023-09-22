@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(218, 218, 218);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#flexbody{
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a{
+    display: block;
+    background-color: rgb(151, 151, 151);
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    border-radius: 20%;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    border-bottom: 3px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    
+}
+
+#l1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+form{
+    border-top: solid grey 1px;
+    border-bottom: solid grey 1px;
+}
+
+a:hover{
+    background-color: rgb(196, 196, 196);
+    color: grey;
+}
+
+th{
+    color: grey;
+    background-color: rgb(218, 218, 218);
+}
+th,
+td{
+    border: black solid 1px;
+    text-align: center;
+}
+
+.tgrey{
+    background-color: grey;
+    color: rgb(240, 240, 240);
+}
+
+aside{
+    border-left: solid grey 1px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+aside{
+    align-items: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sel1{
+    width: 60px;
+}
+
+h1{
+    display: block;
+    width: 70%;
+    text-align: center;
+}
+
+#nav1{
+    width: 30%;
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#l2 a{
+    margin: auto;
+    margin-bottom:  10px;
+}
+
